@@ -30,36 +30,6 @@ class ConversationsList extends React.Component {
             setCurrentConvoInfo={this.props.setCurrentConvoInfo}
           />
         </ul>
-        <div
-          className="slimScrollBar"
-          style={{
-            background: "rgb(220, 220, 220)",
-            width: "5px",
-            position: "absolute",
-            top: "0px",
-            opacity: "0.4",
-            display: "none",
-            borderRadius: "7px",
-            zIndex: "99",
-            right: "1px",
-            height: "660.054px"
-          }}
-        />
-        <div
-          className="slimScrollRail"
-          style={{
-            width: "5px",
-            height: "100%",
-            position: "absolute",
-            top: "0px",
-            display: "none",
-            borderRadius: "7px",
-            background: "rgb(51, 51, 51)",
-            opacity: "0.2",
-            zIndex: "90",
-            right: "1px"
-          }}
-        />
       </div>
     );
   }
